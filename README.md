@@ -84,6 +84,30 @@ The following features were selected for the deployed Streamlit app:
 
 ---
 
+# How to Run Project
 
+1. *استنساخ المشروع*
+git clone https://github.com/habiba-10/-Heart-Disease-Prediction.git
+cd -Heart-Disease-Prediction
 
+2. *إنشاء وتفعيل البيئة الافتراضية*
+python -m venv venv
+# لتفعيل البيئة على ويندوز
+venv\Scripts\activate
+# لتفعيل البيئة على ماك/لينكس
+source venv/bin/activate
+
+3. *تثبيت المكتبات المطلوبة*
+pip install -r requirements.txt
+
+4. *تشغيل التطبيق محليًا باستخدام Streamlit*
+streamlit run heart_disease_app.py
+
+5. *الوصول للتطبيق مباشرة عبر الإنترنت*
+افتحي هذا اللينك في المتصفح:
+https://share.google/J78L0TDhK9wq18NUt
+
+6. *استخدام التطبيق*
+- املي بيانات المريض في الفورم
+- اضغطي على *Predict* عشان يظهرلك احتمال إصابة المريض بأمراض القلب مع النسبة المئوية
 
