@@ -104,7 +104,7 @@ pip install -r requirements.txt
 streamlit run heart_disease_app.py
 
 5. *الوصول للتطبيق مباشرة عبر الإنترنت*
-افتحي هذا اللينك في المتصفح:
+افتح هذا اللينك في المتصفح:
 https://heart-health-predict.streamlit.app/
 
 6. *استخدام التطبيق*
