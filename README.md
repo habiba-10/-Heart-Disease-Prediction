@@ -105,7 +105,7 @@ streamlit run heart_disease_app.py
 
 5. *الوصول للتطبيق مباشرة عبر الإنترنت*
 افتحي هذا اللينك في المتصفح:
-https://share.google/J78L0TDhK9wq18NUt
+https://heart-health-predict.streamlit.app/
 
 6. *استخدام التطبيق*
 - املي بيانات المريض في الفورم
