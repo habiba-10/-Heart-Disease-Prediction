@@ -1,11 +1,19 @@
+# Data manipulation
 pandas
 numpy
+
+# Visualization
 matplotlib
 seaborn
-scipy
-xgboost
+
+# Machine learning
 scikit-learn
-streamlit
-imblearn
+xgboost
+imbalanced-learn
+scipy
+
+# Model persistence
 joblib
-jupyter
+
+# Web app
+streamlit
