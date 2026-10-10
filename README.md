@@ -100,35 +100,42 @@ The app provides real-time risk predictions for patients based on clinical featu
 - *Modeling:* Logistic Regression, Decision Tree, Random Forest, SVM, XGBoost, Voting Ensemble  
 
 ---
+## How to Run the Project
 
-# How to Run Project
-
-1. _استنساخ المشروع_
-   git clone https://github.com/habiba-10/-Heart-Disease-Prediction.git
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/habiba-10/-Heart-Disease-Prediction.git](https://github.com/habiba-10/-Heart-Disease-Prediction.git)
    cd -Heart-Disease-Prediction
+   ```
 
-2. _إنشاء وتفعيل البيئة الافتراضية_
+2. **Create and activate a virtual environment**
+   ```bash
    python -m venv venv
+   ```
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS / Linux:
+     ```bash
+     source venv/bin/activate
+     ```
 
-# لتفعيل البيئة على ويندوز
-
-venv\Scripts\activate
-
-# لتفعيل البيئة على ماك/لينكس
-
-source venv/bin/activate
-
-3. _تثبيت المكتبات المطلوبة_
+3. **Install required dependencies**
+   ```bash
    pip install -r requirements.txt
+   ```
 
-4. _تشغيل التطبيق محليًا باستخدام Streamlit_
+4. **Run the application locally using Streamlit**
+   ```bash
    streamlit run heart_disease_app.py
+   ```
 
-5. _الوصول للتطبيق مباشرة عبر الإنترنت_
-   افتح هذا اللينك في المتصفح:
+5. **Access the live web application**
+   Open the following URL in your browser:  
    https://heart-health-predict.streamlit.app/
 
-6. _استخدام التطبيق_
+6. **How to use the application**
+   - Enter the patient's information in the input form.
+   - Click on **Predict** to display the heart disease prediction along with the risk probability percentage.
 
-- املي بيانات المريض في الفورم
-- اضغطي على _Predict_ عشان يظهرلك احتمال إصابة المريض بأمراض القلب مع النسبة المئوية
